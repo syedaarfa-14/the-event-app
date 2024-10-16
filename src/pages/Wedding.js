@@ -1,9 +1,10 @@
 import React from "react";
 import "../styles/Events.css";
+import WeddingImg from "../assets/wedding.jpg"
 import { Link } from "react-router-dom";
 function Wedding() {
 return (
-<div className="wedding">
+<div style={{backgroundImage: `url(${ WeddingImg})`,backgroundPosition:'center', backgroundSize:"100%", objectFit:"cover"}} className="wedding">
     <h1 className="eventTitle">Wedding Event</h1><br/>
         
             <p className="content">A wedding ceremony consists of many events. They are starting from wedding rehearsal dinner, wedding to wedding reception. 

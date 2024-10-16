@@ -22,16 +22,16 @@ function App() {
       <Router>
         <Navbar />
        <Routes>
-        <Route path="/" exact component={Home} />
-          <Route path="/menu" exact component={Menu} />
-          <Route path="/about" exact component={About} />
-          <Route path="/contact" exact component={Contact} />
-          <Route path="/corporate-event" exact component={CorporateEvent} />
-          <Route path="/social-event" exact component={SocialEvent} />
-          <Route path="/festive-event" exact component={FestiveEvent} />
-          <Route path="/community-event" exact component={CommunityEvent} />
-          <Route path="/wedding-event" exact component={WeddingEvent} />
-          <Route path="/party-event" exact component={PartyEvent} />
+          <Route path="/" exact element={<Home/>} />
+          <Route path="/menu" exact element={<Menu/>} />
+          <Route path="/about" exact element={<About/>} />
+          <Route path="/contact" exact element={<Contact/>} />
+          <Route path="/corporate-event" exact element={<CorporateEvent/>} />
+          <Route path="/social-event" exact element={<SocialEvent/>} />
+          <Route path="/festive-event" exact element={<FestiveEvent/>} />
+          <Route path="/community-event" exact element={<CommunityEvent/>} />
+          <Route path="/wedding-event" exact element={<WeddingEvent/>} />
+          <Route path="/party-event" exact element={<PartyEvent/>} />
 
         </Routes>
         <Footer/>

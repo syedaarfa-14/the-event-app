@@ -1,9 +1,10 @@
 import React from "react";
 import "../styles/About.css";
+import PartyImg from "../assets/party.jpg"
 import { Link } from "react-router-dom";
 function Party() {
 return (
-<div className="party">
+<div style={{backgroundImage: `url(${PartyImg})`,backgroundPosition:'center', backgroundSize:"100%", objectFit:"cover"}} className="party">
 <h1 className="eventTitle">Party Events</h1>
 
             <p className="content">A party is a gathering of people who have been invited by a host for the purposes of 

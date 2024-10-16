@@ -2,7 +2,7 @@
     width: 100%;
     height: 90vh;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     flex-direction: column;
     background-color: #07090a;
     font-family: "Fredoka", sans-serif;
@@ -18,32 +18,34 @@
     width: 480px;
 }
 .eventTitle{
-    color: #a69cac;
+    color: #fdfbfe;
     text-align: center;
     font-size: 40px;
-    font-weight: 300;
+    font-weight: bolder;
+
 }
 .content{
     padding: 7px;
-    color: #a69cac;
+    color: #f9f9fa;
     text-align: justify;
-    margin-top: -24%;
+    margin-top: 0%;
     margin-left: 47%;
     margin-right: 2%;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 25px;
     letter-spacing: 1px;
+    font-weight: bold;
 }
 .wedding .content{
     margin-left: 38%;
-    margin-top: -20%;
+    margin-top: 0%;
 }
 .festive .content{
-    margin-top: -18%;
+    margin-top: 0%;
 }
 ul{
     margin-top: 1%;
-    margin-left: -1%;
+    margin-left: 1%;
 }
 .corporate button, .social button, .festive button, .community button, .wedding button, .party button {
     color: black;
@@ -54,11 +56,10 @@ ul{
     background-color: #474973;
     height: 50px;
     width: 200px;
-    color: #f1dac4;
     text-decoration: none;
     font-size: 18px;
     margin-left: 80%;
-    margin-top: -10%;
+    margin-top: 0%;
 }
 .corporate button:hover, .social button:hover, .festive button:hover, .community button:hover, .wedding button:hover, .party button:hover{
     background-color: rgba(166, 156, 172, 0.8);

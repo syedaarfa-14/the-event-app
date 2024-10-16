@@ -1,13 +1,14 @@
 import React from "react";
 import "../styles/Events.css";
 import { Link } from "react-router-dom";
+import CommunityImg from "../assets/community.jpg"
 function Community() {
 return (
-<div className="community">
+<div style={{backgroundImage: `url(${CommunityImg})`,backgroundPosition:'center', backgroundSize:"100%", objectFit:"contain"}} className="community">
 <h1 className="eventTitle">Community Events</h1>
 <br/>
     <p className="content">Community events are a great way to meet new people that live close to you. Who knows, 
-    you might discover that you’ve been missing out on some great company.<br/><br/>
+    you might discover that you've been missing out on some great company.<br/><br/>
 
     But there are many other reasons to host a community event. You could improve the neighbourhood, 
     raise funds for a charity, or celebrate local talent or culture.<br /><br />
